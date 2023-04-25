@@ -14,3 +14,6 @@ class App(QWidget):
         super().__init__()
         self.title = 'hodnocení'
         self.left = 20
+        self.top = 20
+        self.width = 850
+        self.height = 500
