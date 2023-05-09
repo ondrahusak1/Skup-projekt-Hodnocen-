@@ -31,3 +31,9 @@ class App(QWidget):
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
+        
+        button = QPushButton(':)', self)
+        button.setToolTip('nejspokojenější')
+        button.move(150, 220)
+        button.setStyleSheet("background-color : green")
+        button.clicked.connect(self.on_click1)
