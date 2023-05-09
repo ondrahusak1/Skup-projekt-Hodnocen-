@@ -28,3 +28,6 @@ class App(QWidget):
         self.r =":("
         self.setStyleSheet("background-color : lightblue")
         
+    def initUI(self):
+        self.setWindowTitle(self.title)
+        self.setGeometry(self.left, self.top, self.width, self.height)
