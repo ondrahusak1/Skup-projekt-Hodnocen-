@@ -37,3 +37,19 @@ class App(QWidget):
         button.move(150, 220)
         button.setStyleSheet("background-color : green")
         button.clicked.connect(self.on_click1)
+
+        self.show()
+
+    def on_click1(self):
+        self.a=self.a+1
+
+
+    def on_click2(self):
+        self.b=self.b+1
+
+
+    def on_click3(self):
+       self.c=self.c+1
+
+    def on_click(self):
+        self.d=self.d+1
